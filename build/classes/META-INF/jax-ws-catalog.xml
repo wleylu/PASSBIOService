@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://192.168.220.15:13443/TWSPASSBIO/services?wsdl" uri="wsdl/192.168.220.15_13443/TWSPASSBIO/services.wsdl"/>
+    <system systemId="https://192.168.220.15:13443/TWSPASSBIO/services?xsd=1" uri="wsdl/192.168.220.15_13443/TWSPASSBIO/services.xsd_1.xsd"/>
+    <system systemId="https://192.168.220.15:13443/TWSPASSBIO/services?xsd=2" uri="wsdl/192.168.220.15_13443/TWSPASSBIO/services.xsd_2.xsd"/>
+    <system systemId="https://192.168.220.15:13443/TWSPASSBIO/services?xsd=3" uri="wsdl/192.168.220.15_13443/TWSPASSBIO/services.xsd_3.xsd"/>
+    <system systemId="https://192.168.220.15:13443/TWSPASSBIO/services?xsd=4" uri="wsdl/192.168.220.15_13443/TWSPASSBIO/services.xsd_4.xsd"/>
+</catalog>

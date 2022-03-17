@@ -1,0 +1,27 @@
+Reception données :20181002 08:15:40: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Reception données :20181002 08:16:09: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Problème de connexion à la Database : 20181002 08:16:30 : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Echec de l'enregistrement : null
+Reception données :20181002 08:17:59: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Problème de connexion à la Database : 20181002 08:18:21 : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Echec de l'enregistrement : null
+Reception données :20181002 08:23:14: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Problème de connexion à la Database : 20181002 08:23:38 : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Echec de l'enregistrement : null
+Reception données :20181002 08:26:18: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Initialisation du service PASSBIO
+Reception donnees :20181002 09:34:42: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion etablie avec succes : 20181002 09:34:44
+Insertion donnees :20181002 09:34:42: SUCCES
+Deconnection a la base : 20181002 09:34:44
+Reception donnees :20181002 09:36:49: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion etablie avec succes : 20181002 09:36:50
+Insertion impossible la reference existe deja: reference :1000009: Date : 20181002 09:36:49: SUCCES
+Insertion impossible la reference existe deja: reference :1000008: Date : 20181002 09:36:49: SUCCES
+Deconnection a la base : 20181002 09:36:50

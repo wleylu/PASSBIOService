@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980. --><xs:schema xmlns:tns="http://temenos.com/TWSPASSBIO" xmlns:ns2="http://temenos.com/TNATXNPASSBIO" xmlns:ns1="http://temenos.com/TNAGETTRXPASS" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://temenos.com/TWSPASSBIO">
+
+<xs:import namespace="http://temenos.com/TNAGETTRXPASS" schemaLocation="https://192.168.220.15:13443/TWSPASSBIO/services?xsd=3"/>
+
+<xs:import namespace="http://temenos.com/TNATXNPASSBIO" schemaLocation="https://192.168.220.15:13443/TWSPASSBIO/services?xsd=2"/>
+
+<xs:element name="TNAGETTRXPASS" type="tns:TNAGETTRXPASS"/>
+
+<xs:element name="TNAGETTRXPASSResponse" type="tns:TNAGETTRXPASSResponse"/>
+
+<xs:element name="TNATXNPASSBIO" type="tns:TNATXNPASSBIO"/>
+
+<xs:element name="TNATXNPASSBIOResponse" type="tns:TNATXNPASSBIOResponse"/>
+
+<xs:complexType name="TNAGETTRXPASS">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0"/>
+<xs:element name="TNAGETTRXPASSType" type="tns:enquiryInput" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="webRequestCommon">
+<xs:sequence>
+<xs:element name="company" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string"/>
+<xs:element name="userName" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="enquiryInput">
+<xs:sequence>
+<xs:element name="enquiryInputCollection" type="tns:enquiryInputCollection" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="enquiryInputCollection">
+<xs:sequence>
+<xs:element name="columnName" type="xs:string" minOccurs="0"/>
+<xs:element name="criteriaValue" type="xs:string" minOccurs="0"/>
+<xs:element name="operand" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TNAGETTRXPASSResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0"/>
+<xs:element name="TNAGETTRXPASSType" type="ns1:TNAGETTRXPASSType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Status">
+<xs:sequence>
+<xs:element name="transactionId" type="xs:string" minOccurs="0"/>
+<xs:element name="messageId" type="xs:string" minOccurs="0"/>
+<xs:element name="successIndicator" type="tns:successIndicator" minOccurs="0"/>
+<xs:element name="application" type="xs:string" minOccurs="0"/>
+<xs:element name="messages" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TNATXNPASSBIO">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0"/>
+<xs:element name="TNATXNPASSBIOType" type="tns:enquiryInput" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TNATXNPASSBIOResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0"/>
+<xs:element name="TNATXNPASSBIOType" type="ns2:TNATXNPASSBIOType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="successIndicator">
+<xs:restriction base="xs:string">
+<xs:enumeration value="Success"/>
+<xs:enumeration value="TWSError"/>
+<xs:enumeration value="T24Error"/>
+<xs:enumeration value="T24Override"/>
+<xs:enumeration value="T24Offline"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

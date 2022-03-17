@@ -1,0 +1,52 @@
+Reception données :20181001 20:46:17: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"}]}
+Connexion établie avec succès : 20181001 20:46:20
+Insertion données :20181001 20:46:17: SUCCES
+Déconnection à la base : 20181001 20:46:20
+Reception données :20181001 21:11:51: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"}]}
+Connexion établie avec succès : 20181001 21:11:54
+Insertion données :20181001 21:11:51: SUCCES
+Déconnection à la base : 20181001 21:11:54
+Initialisation du service PASSBIO
+Reception données :20181001 21:13:27: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918QZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:13:30
+Insertion données :20181001 21:13:27: SUCCES
+Déconnection à la base : 20181001 21:13:30
+Reception données :20181001 21:15:35: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918QZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:15:37
+Insertion données :20181001 21:15:35: SUCCES
+Déconnection à la base : 20181001 21:15:37
+Initialisation du service PASSBIO
+Reception données :20181001 21:18:59: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:19:02
+Insertion données :20181001 21:18:59: SUCCES
+Déconnection à la base : 20181001 21:19:02
+Initialisation du service PASSBIO
+Reception données :20181001 21:21:18: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:21:21
+Insertion données :20181001 21:21:18: SUCCES
+Déconnection à la base : 20181001 21:21:21
+Reception données :20181001 21:23:26: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:23:28
+Insertion impossible la référence existe déjà: réference :1000009: Date : 20181001 21:23:26: SUCCES
+Insertion impossible la référence existe déjà: réference :1000008: Date : 20181001 21:23:26: SUCCES
+Déconnection à la base : 20181001 21:23:28
+Reception données :20181001 21:25:33: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:25:35
+Insertion impossible la référence existe déjà: réference :1000009: Date : 20181001 21:25:33: SUCCES
+Insertion impossible la référence existe déjà: réference :1000008: Date : 20181001 21:25:33: SUCCES
+Déconnection à la base : 20181001 21:25:35
+Reception données :20181001 21:27:40: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:27:40
+Insertion impossible la référence existe déjà: réference :1000009: Date : 20181001 21:27:40: SUCCES
+Insertion impossible la référence existe déjà: réference :1000008: Date : 20181001 21:27:40: SUCCES
+Déconnection à la base : 20181001 21:27:40
+Reception données :20181001 21:29:45: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:29:47
+Insertion impossible la référence existe déjà: réference :1000009: Date : 20181001 21:29:45: SUCCES
+Insertion impossible la référence existe déjà: réference :1000008: Date : 20181001 21:29:45: SUCCES
+Déconnection à la base : 20181001 21:29:47
+Reception données :20181001 21:31:52: Resultat : {"total":"1","data":[{"date":"20180509","reference_alternative":"1000009","reference_T24":"FT1812918QY2","nom":"DOSSO","prenom":"YLYASSE"},{"date":"20180509","reference_alternative":"1000008","reference_T24":"FT1812918DZ2","nom":"KONE","prenom":"YACOUBA"}]}
+Connexion établie avec succès : 20181001 21:31:53
+Insertion impossible la référence existe déjà: réference :1000009: Date : 20181001 21:31:52: SUCCES
+Insertion impossible la référence existe déjà: réference :1000008: Date : 20181001 21:31:52: SUCCES
+Déconnection à la base : 20181001 21:31:53
